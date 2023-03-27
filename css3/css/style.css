@@ -1,0 +1,13 @@
+
+/* block, element, modificateur */
+
+.user-cart__image {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 40%;
+}
+
+
+
+
