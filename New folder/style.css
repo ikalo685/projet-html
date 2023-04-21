@@ -1,0 +1,70 @@
+.fi {
+    background-color: gold;
+}
+.contener {
+    background-color: cadetblue;
+    width: 100px;
+    height: 200px;
+    
+}
+
+.div {
+
+    background-color: blue;
+}
+
+/*.a_vlog {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 5px;
+    float: center;
+}
+.b_vlog {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 10px;
+    padding-top: 0;
+    margin-right: 220px;
+}*/
+
+.a_vlog { 
+    display: grid;
+    width: 400;
+    grid-template-columns: 120px 120px 120px;
+    align-items: start;
+    background-color: blueviolet;
+}
+.td {
+    background-color: rgb(255, 0, 208);
+    display: left;
+}
+.b_vlog {
+    margin: 20px;
+    text-align: end;
+    background-color: rgb(113, 167, 26);
+    display: center;
+    width: 400;
+    height:30;
+    grid-template-columns: 120px 120px 120px;
+}
+
+.fk {
+    background-color: rgb(225, 19, 19);
+    margin: auto;
+}
+
+.inscription{
+    text-align: center;
+}
+.recherche {
+    margin: right;
+    display: center;
+    justify-content: center;
+}
+
+.nav {
+    float: left;
+    width: 150px;
+    border: 1px solid blue;
+    
+} 
