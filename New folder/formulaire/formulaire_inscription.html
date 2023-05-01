@@ -4,37 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="formulaire/style.css.css">
+    <link rel="stylesheet" href="/formulaire/style.css">
+    <script src="formulaire/script.js" defer></script>
     <title>formulaire d'inscription</title>
 </head>
-<body  class="a_bo">
-    
-    <!-- <h1 class="insc"  >Formulaire d'inscription</h1> -->
-            <form style="margin: auto; width: 340px;">
-                <h1 class="insc"> Formulaire d'inscription </h1>
-                <br>
-                <div class="formule" id="g_fo">
-                <label for="nom">nom</label><br>
-                <input type="text" id="nom" name="q" placeholder="Entrez votre nom">
-                <br>
-                <label for="Nom_de_famile">Nom de famille</label><br>
-                <input type="text" id="Nom_de_famile" name="f" placeholder="Entrez votre Nom de famille">
-                <br>
-                <label for="Psedo">Psedo</label><br>
-                <input type="text" id="psedo" name="i" placeholder="Entrez votre psedo">
-                <br>
-                <label for="mail">Mail</label><br>
-                <input type="email" id="mail" name="j" placeholder="exemple: alvin@gmail.com">
-                <br>
-                <label for="mot_de_passe">Mot de passe</label><br>
-                <input type="password" id="searche" name="m" placeholder="Entrez un mot de passe">
-                <br>
-                <label for=" mot_de_passe">Confirmer mot de passe</label><br>
-                <input type="password" id="mot_de_passe" name="v" placeholder="reecrire le mot de passe">
-                <br>
-                <button type="submit"> envoyer</button>
-                <button type="reset">annuler</button>
-                </div>
-            </form>
+<body  class="a_bo"  >
+    <div class="b_fr" >
+        
+        <!-- <h1 class="insc"  >Formulaire d'inscription</h1> -->
+                <form  class="from" >
+                    <h1 class="insc"> Formulaire d'inscription </h1>
+                    <br>
+                    <button id="btn1">Jaune</button>
+                    <button id="btn2">maron</button>
+                    <button id="btn3">orange</button>
+                    <br>
+                    <div class="formule" id="g_fo">
+                    <label for="nom">nom</label><br>
+                    <input type="text" id="nom" name="q" placeholder="Entrez votre nom">
+                    <br>
+                    <label for="Nom_de_famile">Nom de famille</label><br>
+                    <input type="text" id="Nom_de_famile" name="f" placeholder="Entrez votre Nom de famille">
+                    <br>
+                    <label for="Psedo">Psedo</label><br>
+                    <input type="text" id="psedo" name="i" placeholder="Entrez votre psedo">
+                    <br>
+                    <label for="tel">Telephone</label><br>
+                    <input type="tel" name="phone" id="phone" pattern="">
+                    <br>
+                    <label for="mail">Mail</label><br>
+                    <input type="email" id="mail" name="j" placeholder="exemple: alvin@gmail.com">
+                    <br>
+                    <label for="mot_de_passe">Mot de passe</label><br>
+                    <input type="password" id="searche" name="m" placeholder="Entrez un mot de passe">
+                    <br>
+                    <label for=" mot_de_passe">Confirmer mot de passe</label><br>
+                    <input type="password" id="mot_de_passe" name="v" placeholder="reecrire le mot de passe">
+                    <br>
+                    <button type="submit" id=""> envoyer</button>
+                    <button type="reset" id="">annuler</button>
+                    <br>
+                    
+                    </div>
+                    <hr>
+                    <footer>
+                        <div>
+                            <tr>
+                                <label for="tel">Telephone</label><br>
+                                <a href="tel:+79051571229">call us</a>
+                            </tr>
+                        </div>
+                    </footer>
+                </form>
+     </div>
 </body>
 </html>
